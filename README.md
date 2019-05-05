@@ -33,6 +33,6 @@ Cg==
 # 声明
 
 
-<font color="#FFF">示例：https://pan.baidu.com/s/1HhcBdmZ-tbbgqsL7EsMAsgTMWLjfvy</font>
+<i style="color:#FFF">示例：https://pan.baidu.com/s/1HhcBdmZ-tbbgqsL7EsMAsgTMWLjfvy</i>
 
 资源为网络收集，来源与本人无关。不愿意也不想承担一切法律责任，如有侵权，请关闭当前页面~
