@@ -1,7 +1,10 @@
 # 视频
-## 黑马 57 期-Java：
-新链接: https://pan.baidu.com/s/1hiKCS_6nvEhwKN-I8JJX1Q 提取码: in9r 
+## 黑马
+57 期-Java： https://pan.baidu.com/s/1hiKCS_6nvEhwKN-I8JJX1Q 提取码: in9r 
 
+## 传智播客
+2018年传智播客黑马python人工智能15期视频教程：
+https://pan.baidu.com/s/1RigrHkAhMA57ozsc7jJpqA 密码: fa4v
 
 
 # 高清PDF
@@ -10,7 +13,8 @@ http://pan.baidu.com/s/1u8Zai8AfKINcdpnlEHj-cw
 提取码：fyqp
 
 ## Python
-链接：https://pan.baidu.com/s/1HhcBdmZ-tbbgqsL7EsMAsg 密码：jfvy   合集版
+https://pan.baidu.com/s/1HhcBdmZ-tbbgqsL7EsMAsg
+密码：jfvy   合集版
 
 
 # 干货文章
