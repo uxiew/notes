@@ -1,4 +1,33 @@
 # 视频
+
+## 01.java架构师阶段性课程
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMTdfMHZRcE5xZXFRTlU5UGlSWFVPRkFUTVdMOGFxdyAN
+Cg==
+
+## 02.高级Java系统培训架构课程
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMTh3RmNUbkJOaG1sb2VrQTIyZHVqZ2dUTVdMZjJzbSAN
+Cg==
+
+## 03.java互联网架构不加密版
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMVNCM2dodk1ZRVBFUm5lWXR2VjVfMVFUTVdMa2NrdyAN
+Cg==
+
+## 06.java互联网架构师（netty、mina、nio）
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUFTaXZmTjk2Ym84aFBBWWFXeG9WcHdUTVdMYTdkZCAN
+Cg==
+
+## 07.阿里开源分布式框架dubbo
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMVMxUTNDX2VvNElJX090Q2tqMDdKbFFUTVdMNXhmciAN
+Cg==
+
+## 08.高级Java系统培训架构课程（阶段二）
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMXE4VFNRN1JQeG90U3lHTk1PZlRTSndUTVdMZmk5OCAN
+Cg==
+
+## 《开课吧》石川 第二期全栈架构师
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUNoZW1oYzBkUmh4RTNjOFZTWjg5Y3dUTVdMZzF2YiAN
+Cg==
+
 ## 黑马
 57 期-Java:
 aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMWhpS0NTXzZudkVod0tOLUk4SkpYMVFUTVdMaW45ciAN
@@ -18,12 +47,26 @@ Cg==
 aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUZKTXM2TmFBQjFMUmV6TWNvTTRGZHdUTVdMeXlmOA0K
 
 
-# 高清PDF
+# PDF
 ## 图灵程序设计丛书
 aHR0cDovL3Bhbi5iYWlkdS5jb20vcy8xdThaYWk4QWZLSU5jZHBubEVIai1jd1RNV0xmeXFwIA0K
 
 ## Python
 aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUhoY0JkbVotdGJiZ3FzTDdFc01Bc2dUTVdMamZ2eSAN
+Cg==
+
+## JavaWeb
+https://blog.csdn.net/myvanguard/article/details/83957884
+
+## 算法
+https://blog.csdn.net/myvanguard/article/details/84106018
+
+## web基础
+https://blog.csdn.net/myvanguard/article/details/83957920
+
+# 未划分
+## 全套资料:
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMTBiSEc4VFlKMktIN2FxTEFwNV9xV1FUTVdMNndjYiAN
 Cg==
 
 
