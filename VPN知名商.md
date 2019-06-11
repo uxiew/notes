@@ -32,8 +32,6 @@
 # [betternet](https://www.betternet.co/)
 下载直接点击连接即可！
 
-# VPN Mentor
-[Vpn mentor](https://zh.vpnmentor.com/)
 
 # VPN Gate
 [公共 VPN 中继服务器](https://www.vpngate.net/cn/)
@@ -42,5 +40,20 @@
 # CmyIP
 [CmyIP](https://cmyip.com/)
 
+
+# 😙
+最近购买了 safervpn 终身看了 是 5 年，目前可以登录，但是连接不了！
+
+疑问：
+买了一个，但是兑换之后看到是10年后过期，所以不是真的终身吗？
+iGFW
+2018年11月28日10:15
+回复 | 引用 | #4
+StackSocial说的是终身的，10年后StackSocial会给你新的激活码，依次循环
+
+
 # 参考
-[vpnMentor](https://zh.vpnmentor.com/bestvpns/overall/)
+# VPN 测评
+[Vpn mentor](https://zh.vpnmentor.com/)
+[wizcase](https://zh.wizcase.com/)
+https://www.igfw.net/archives/category/fanqiangliqi
