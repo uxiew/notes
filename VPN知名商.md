@@ -1,9 +1,10 @@
 [TOC]
+
+# [Surfshark](https://surfshark.com/zh/)
+
 # [Zenmate](https://zenmate.com/)
 
 # [Trust.Zone](https://trust.zone/)
-
-# [Windscribe](https://windscribe.com/)
 
 # [VPN Unlimited](https://www.vpnunlimitedapp.com/)
 
@@ -14,8 +15,6 @@
 # [Pure VPN](https://www.purevpn.com/)
 
 # [VyprVPN](https://www.goldenfrog.com/zh)
-
-# [Safer VPN](https://www.safervpn.com/)
 
 # [NordVPN](https://nordvpn.com/zh/)
 
@@ -31,6 +30,13 @@
 
 # [betternet](https://www.betternet.co/)
 下载直接点击连接即可！
+
+ 
+# DNS 
+https://dnsleaktest.com/
+
+http://pcm-intl.speedtestcustom.com/
+
 
 
 # VPN Gate
@@ -54,6 +60,8 @@ StackSocial说的是终身的，10年后StackSocial会给你新的激活码，�
 
 # 参考
 # VPN 测评
+[在中国还能用的VPN](https://www.vpnranks.com/zh-hans/%E6%9C%80%E4%BD%B3vpn/%E4%B8%AD%E5%9B%BD/)
 [Vpn mentor](https://zh.vpnmentor.com/)
 [wizcase](https://zh.wizcase.com/)
 https://www.igfw.net/archives/category/fanqiangliqi
+[Is Your VPN Leaking?](https://www.pcmag.com/article/354450/is-your-vpn-leaking)
