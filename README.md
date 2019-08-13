@@ -58,6 +58,11 @@ https://blog.csdn.net/myvanguard/article/details/83957920
 aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMTBiSEc4VFlKMktIN2FxTEFwNV9xV1FUTVdMNndjYiANCg==
 
 
+# 掘金小册
+前端方向的掘金小册
+aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUswWU1RSE5TbzRoWG1RWVdqWXZRaGdUTVdMNzg5ZiAN
+Cg==
+
 
 # 干货文章
 
