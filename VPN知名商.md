@@ -60,8 +60,11 @@ StackSocial说的是终身的，10年后StackSocial会给你新的激活码，�
 
 # 参考
 # VPN 测评
+[墙妈妈](https://www.wallmama.com/)
+[科学上网教程](http://dyjldq.blogspot.com/2018/10/blog-post.html)
 [在中国还能用的VPN](https://www.vpnranks.com/zh-hans/%E6%9C%80%E4%BD%B3vpn/%E4%B8%AD%E5%9B%BD/)
 [Vpn mentor](https://zh.vpnmentor.com/)
 [wizcase](https://zh.wizcase.com/)
 https://www.igfw.net/archives/category/fanqiangliqi
 [Is Your VPN Leaking?](https://www.pcmag.com/article/354450/is-your-vpn-leaking)
+
