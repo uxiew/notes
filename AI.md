@@ -1,10 +1,12 @@
 # resources
 
+[reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api)
+
 [Ice-Hazymoon/openai-scf-proxy](https://github.com/Ice-Hazymoon/openai-scf-proxy)
 
 [transitive-bullshit/chatgpt-api#projects](https://github.com/transitive-bullshit/chatgpt-api#projects)
 
-奶酪清单：https://github.com/runningcheese/Awesome-ChatGPT
+[奶酪清单](https://github.com/runningcheese/Awesome-ChatGPT)
 
 [ddiu8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 
@@ -12,13 +14,15 @@
 
 [Kamigami55/awesome-chatgpt](https://github.com/Kamigami55/awesome-chatgpt)
 
-[reorx/awesome-chatgpt-api](https://github.com/reorx/awesome-chatgpt-api)
+[openai-gpt-dev-notes-for-cn-developer](https://github.com/easychen/openai-gpt-dev-notes-for-cn-developer)
 
 # Prompt
 
 [thinkingjimmy/Learning-Prompt](https://github.com/thinkingjimmy/Learning-Prompt)
 [trigaten/Learn_Prompting](https://github.com/trigaten/Learn_Prompting)
 
-# 在线
+# ChatGPT Sit
+
+[Free ChatGPT Site List](https://github.com/xx025/carrot)
 
 https://ai.okmiku.com/
