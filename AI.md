@@ -16,6 +16,10 @@
 
 [openai-gpt-dev-notes-for-cn-developer](https://github.com/easychen/openai-gpt-dev-notes-for-cn-developer)
 
+# OpenAI's Whisper
+
+https://github.com/beyondcode/writeout.ai
+
 # Prompt
 
 [thinkingjimmy/Learning-Prompt](https://github.com/thinkingjimmy/Learning-Prompt)
@@ -23,6 +27,20 @@
 
 # ChatGPT Sit
 
+https://chat.binjie.site:7777/#/chat/1677822960785
+
+https://www.typingmind.com/
+
+https://open-gpt.app
+
 [Free ChatGPT Site List](https://github.com/xx025/carrot)
 
+https://chat.forchange.cn/
+
+https://chat.theb.ai/#/chat/1002
+
 https://ai.okmiku.com/
+
+https://www.aitoolgpt.com/
+
+https://www.typingmind.com/
