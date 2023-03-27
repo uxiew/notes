@@ -47,17 +47,6 @@ http://pcm-intl.speedtestcustom.com/
 [CmyIP](https://cmyip.com/)
 
 
-# 😙
-最近购买了 safervpn 终身看了 是 5 年，目前可以登录，但是连接不了！
-
-疑问：
-买了一个，但是兑换之后看到是10年后过期，所以不是真的终身吗？
-iGFW
-2018年11月28日10:15
-回复 | 引用 | #4
-StackSocial说的是终身的，10年后StackSocial会给你新的激活码，依次循环
-
-
 # 参考
 # VPN 测评
 [墙妈妈](https://www.wallmama.com/)
