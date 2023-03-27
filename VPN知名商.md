@@ -43,10 +43,6 @@ http://pcm-intl.speedtestcustom.com/
 [公共 VPN 中继服务器](https://www.vpngate.net/cn/)
 ## [VPN Gate 提供不限流量、免費，且支援電腦和手機的 VPN 服務教學]([https://www.kjnotes.com/freeware/74](https://www.kjnotes.com/freeware/74))
 
-# CmyIP
-[CmyIP](https://cmyip.com/)
-
-
 # 参考
 # VPN 测评
 [墙妈妈](https://www.wallmama.com/)
