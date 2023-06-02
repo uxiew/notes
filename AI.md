@@ -57,6 +57,16 @@ https://www.aitoolgpt.com/
 
 https://www.typingmind.com/
 
+
+# AI Coding Tool
+
+[codium](https://www.codium.ai/)
+
+[bloop](https://github.com/BloopAI/bloop)
+
+[Safurai](https://www.safurai.com/)
+
+
 # other AI services
 
 https://chatthing.ai/#pricing
@@ -110,12 +120,11 @@ decktopus.com
 Decktopus 是一个人工智能演示器，可以在几秒钟内创建惊人的演示文稿。
 
 
-https://bito.ai/
+https://bito.ai/
+
 https://kodezi.com/
 
 https://cohesive.so/
-
-https://www.codium.ai/
 
 
 [ANIMATED DRAWINGS](https://sketch.metademolab.com/)	让手绘动起来
@@ -143,6 +152,12 @@ AI 绘画工具其实已经出来很久了，但最火的还是 Midjourney 和 S
 
 # AI 集合网址
 
+[chatgpt-sites](https://github.com/lzwme/chatgpt-sites)
+
+[awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt)
+
+[ai-collection](https://github.com/ai-collection/ai-collection/)
+
 https://www.hayo.com/
 
 https://allthingsai.com/
@@ -161,7 +176,8 @@ https://xcbl.cc/ 老贝比 AI 工具箱
 
 https://www.amrgpt.com/	AI 学院
 
-https://www.phpcms9.com/	AI 工具箱
+https://www.phpcms9.com/	AI 工具箱
+
 https://smiler666.github.io/tools/ 在线资源库
 
 https://hello-ai.anzz.top/home/FreeChatGPTSiteList.html	免费ChatGPT网站列表
@@ -175,5 +191,3 @@ https://233heji.com/1445.html	OpenAI产品ChatGPT相关网站|机器人合集
 http://www.8586.org/index.html ChatGPT 镜像导航
 
 https://jichangtuijian.com/chatgpt%E5%A5%97%E5%A3%B3%E9%95%9C%E5%83%8F.html	ChatGPT套壳ChatGPT镜像网站导航列表收集
-
-
