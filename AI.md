@@ -69,11 +69,13 @@ https://www.typingmind.com/
 
 # other AI services
 
+https://sider.ai/
+
+https://lunabot.ai/
+
 https://monica.im/
 
 https://usechatgpt.ai/
-
-https://sider.ai/
 
 https://chatthing.ai/#pricing
 
