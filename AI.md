@@ -69,6 +69,12 @@ https://www.typingmind.com/
 
 # other AI services
 
+https://monica.im/
+
+https://usechatgpt.ai/
+
+https://sider.ai/
+
 https://chatthing.ai/#pricing
 
 [ChatSonic](https://writesonic.com/chat)
