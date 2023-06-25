@@ -35,6 +35,8 @@ https://github.com/zhpd/chatgpt-plus
 
 https://github.com/Yidadaa/ChatGPT-Next-Web
 
+https://www.51ai.info/
+
 # ChatGPT Free
 
 [aichatos](https://chat.aichatos.top/)
