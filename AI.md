@@ -81,8 +81,12 @@ https://usechatgpt.ai/
 
 https://chatthing.ai/#pricing
 
+https://www.trancy.org/zh-cn/pricing
+
 [ChatSonic](https://writesonic.com/chat)
 是您可以免费使用的 ChatGPT 的最佳替代品。这个人工智能工具可以帮助你写出惊人的内容，没有任何抄袭。免费试用。
+
+https://www.gpt-lv.com/
 
 chatdoc.com
 上传文档后，应用会自动提炼总结文档内容，并回答提出的问题。
@@ -144,8 +148,8 @@ https://cohesive.so/
 https://community.openai.com/c/share-your-app-project/12/l/latest
 
 # 图片处理
-AI 绘画工具其实已经出来很久了，但最火的还是 Midjourney 和 Stable Diffusion，特别是 SD，由于其开源属性，养活了一堆很有特色的AI绘画网站。
 
+AI 绘画工具其实已经出来很久了，但最火的还是 Midjourney 和 Stable Diffusion，特别是 SD，由于其开源属性，养活了一堆很有特色的AI绘画网站。
 
 [Bing - Image Creator](https://www.bing.com/create)
 
