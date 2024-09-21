@@ -4,14 +4,8 @@
 
 # 资源
 
-1. [API](./api)
+1. [node-esm-ts](./node/node-esm-ts.md) 
 
-2. [网盘](./knowledge/netdisk.md)
+2. [API](./api)
 
-3. [AI](./knowledge/AI.md)
-
-4. [科学上网](./knowledge/科学上网.md)
-
-5. [VPN 知名商](./knowledge/VPN知名商.md)
-
-6. [node-esm-ts](./node/node-esm-ts.md) 
+3. [网盘](./knowledge/)
