@@ -21,3 +21,4 @@
 ## 参考
 
 > [GitHub Actions 文档](https://docs.github.com/zh/actions)
+> [CICube](https://cicube.io/workflow-hub/)
