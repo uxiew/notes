@@ -4,9 +4,9 @@
 从 Node v13.2.0 开始，不再需要实验标志。现在只需几个步骤即可使用 ECMAScript 模块。
 
 如果我们想用 TypeScript 进行开发 Node.js 应用，并且希望最终使用 ES6 模块语法。那么我们就会遇到这些问题：
-（推荐 ES 模块文件后缀使用 `.mjs`，commonjs 模式推荐 `.cjs`）
+（推荐 ES 模块文件后缀使用 `.mjs`，commonjs 模式推荐 `.cjs`。更多：[Node File Extensions](https://nodejs.org/api/packages.html#packagejson-and-file-extensions)）
 1. `package.json` 中必须要指定 `"type": "module"` 来启用 ES6 模块语法。
-2. TS 编译之后无法生成 `.mjs` 文件扩展名。
+2. TS 编译之后无法生成 `.mjs` 文件扩展名（现在可以通过 `.mts` 文件生成）。
 3. 启用 ES6 模块语法后，就必须指定文件的扩展名，否则会报错，比如 `.mjs`。
 
 ## ESM 与 CJS
@@ -29,10 +29,20 @@ ESM 会有一些与 CJS 不同：
  在 NodeJS 中想要同步和动态导入 ES6 模块，可以考虑：[import-sync](https://github.com/nktnet1/import-sync)
 
 ### `.cts` 和 `.mts` 文件
-随着 Node.js 12 的引入和 ES 模块支持的增加，TypeScript 引入了新的文件扩展名，以更清楚地区分 CommonJS 和 ES 模块：
+随着 Node.js 12 的引入和 ES 模块支持的增加，TypeScript 引入了新的文件扩展名，更好地支持 Node.js 中的 CommonJS（CJS）和 ECMAScript Modules（ESM）：
 
-- `.cts`：这是一个被视为 CommonJS 模块的 TypeScript 文件。它相当于使用 `--module commonjs` 编译选项。
-- `.mts`：这是一个被视为 ES 模块的 TypeScript 文件。它相当于使用 `--module esnext` 编译选项。
+- `.cts`（Classic TypeScript）：这是一个被视为 CommonJS 模块的 TypeScript 文件。它相当于使用 `--module commonjs` 编译选项。
+- `.mts`（Modern TypeScript）：这是一个被视为 ES 模块的 TypeScript 文件。它相当于使用 `--module esnext` 编译选项。
+
+| TypeScript source file extension | Compiled JavaScript file extension | Generated type declaration file extension |
+| :------------------------------- | :--------------------------------- | :---------------------------------------- |
+| `.ts`                            | `.js`                              | `.d.ts`                                   |
+| `.cts`                           | `.cjs`                             | `.d.cts`                                  |
+| `.mts`                           | `.mjs`                             | `.d.mts`                                  |
+
+
+指定 `module: node16` 或 `module: nodenext` 的设置使 TypeScript 的模块系统更接近 Node.js 的行为，提供了更细粒度的模块类型控制，并支持混合使用 CommonJS 和 ESM。
+
 
 ### `require` 与 `import`
 
@@ -87,6 +97,7 @@ module.exports = {
 - [huozhi/bunchee](https://github.com/huozhi/bunchee)
 
 ### 最佳实践
+
 1. 使用 Typescript 进行开发，或者编写良好的 JSDoc，还需要提高良好的测试（vitest、jest 工具等）
 3. 内部所有 import（包括动态，除了第三方库），都需要指定好后缀名（typescript 编译，需要通过相应工具添加后缀）
 4. 推荐使用 named export（命名导出）导出模块成员。default export（默认导出）在灵活性和可维护性、重构难度都不友好，在某些打包工具中，也容易发生意想不到的问题。
