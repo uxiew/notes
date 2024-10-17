@@ -82,9 +82,10 @@ module.exports = {
 
 ## 库的开发
 
-有依赖 commonjs 包的库，考虑输出多包；
-同时面对多种环境，优先考虑输出多包。
-
+* 有依赖 commonjs 包的库，考虑输出多包；
+* 同时面对多种环境，优先考虑输出多包；
+* 使用 main、module、types、exports 来提供了更细粒度的入口控制（不需要 `"type": "module"`）。
+  
 1. 导出 `cjs\mjs` 两种文件，方便用户使用。
 2. 通过 `package.json` 的 `exports` 同时，指定 `require、import、types` 文件导出
 3. 使用 ts 编译，生成 `.d.ts` 类型定义文件
