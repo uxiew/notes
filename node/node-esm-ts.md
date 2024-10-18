@@ -23,7 +23,7 @@ ESM 会有一些与 CJS 不同：
 
 - ESM 中无法使用 `__dirname/__filename` 这类 CJS 中的内置全局变量。[alternative-for-dirname-in-node-js-when-using-es6-modules](https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-js-when-using-es6-modules)
 
-  解决这个问题的一个简单方法是使用 shim 填充这些值：
+  解决这个问题的一个简单方法是使用 shim 填充这些值，参考 [import.meta](https://nodejs.org/api/esm.html#importmetadirname)：
      ```ts
           // Node 20.11.0+, Deno 1.40.0+
         const __dirname = import.meta.dirname;
