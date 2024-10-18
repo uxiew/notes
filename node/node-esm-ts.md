@@ -13,9 +13,11 @@
 
 ESM 会有一些与 CJS 不同：
 
-- 只有 ESM 才能使用 top-level await
+- 只有 ESM 才能使用 top-level await（TLA）
+    TLA 属于 ES2022 的特性。可以在 [ECMAScript proposal: Top-level await](https://github.com/tc39/proposal-top-level-await) 查看关于 TLA 的历史。
 
 - ESM 中无法使用 `__dirname/__filename` 这类 全局变量。[alternative-for-dirname-in-node-js-when-using-es6-modules](https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-js-when-using-es6-modules)
+  
 
 - ESM 是可以向下兼容 CJS 的。但是要 CJS 向上兼容，导入 ESM 模块，就会很麻烦，必须要使用 `dynamic import()`。
 
@@ -77,18 +79,16 @@ module.exports = {
 
 于是，在 ES6 语法糖 `default` 的影响下，require 导出的不是 `xxx` 这个对象，`xxx` 是作为 `default` 的值，被包在一个更大的对象里。
 
-## 更多
-> 轮子哥 [sindresorhus](https://github.com/sindresorhus) 的 [Pure ESM package](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
-
 ## 库的开发
 
 * 有依赖 commonjs 包的库，考虑输出多包；
 * 同时面对多种环境，优先考虑输出多包；
 * 使用 main、module、types、exports 来提供了更细粒度的入口控制（不需要 `"type": "module"`）。
   
-1. 导出 `cjs\mjs` 两种文件，方便用户使用。
-2. 通过 `package.json` 的 `exports` 同时，指定 `require、import、types` 文件导出
-3. 使用 ts 编译，生成 `.d.ts` 类型定义文件
+1. 只支持 ESM，放弃对 CJS，因为 CJS 被抛弃是注定的事情
+2. 使用 typescript  进行项目的开发，生成 `.d.ts` 类型定义文件
+
+> 更多查看：轮子哥 [sindresorhus](https://github.com/sindresorhus) 的 [Pure ESM package](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
 
 ### 相关构建工具
 - [unjs/mlly](https://github.com/unjs/mlly) - 填补在 Node 中实用 ES 模块进行开发的实用库
