@@ -10,8 +10,18 @@ Node.js 从 12.x 开始引入实验性 ESM 支持（运行带有实验标志 (`-
 如果我们想用 TypeScript 进行开发 Node.js 应用，并且希望最终使用 ES6 模块语法。那么我们就会遇到这些问题：
 （推荐 ES 模块文件后缀使用 `.mjs`，commonjs 模式推荐 `.cjs`。更多：[Node File Extensions](https://nodejs.org/api/packages.html#packagejson-and-file-extensions)）
 1. `package.json` 中必须要指定 `"type": "module"` 来启用 ES6 模块语法。
-2. TS 编译之后无法生成 `.mjs` 文件扩展名（现在可以通过 `.mts` 文件生成）。
-3. 启用 ES6 模块语法后，就必须指定文件的扩展名，否则会报错，比如 `.mjs`。
+2. TSC 编译时并不会自动的帮你添加 `.js` 后缀，但 ESM 要求必须有扩展名。
+    ```ts
+    // 缺少扩展名，编译成的 ESM 产物无法使用
+    import Foo from "./foo";
+    // ESM不会默认引入文件夹下的 index.js
+    import * from './directory'
+    
+    // 正确的写法
+    import Foo from "./foo.js";
+    import * from './directory/index.js'
+    ```
+4. 启用 ES6 模块语法后，就必须指定文件的扩展名，否则会报错，比如 `.mjs`。
 
 ## ESM 与 CJS
 
@@ -23,7 +33,7 @@ ESM 会有一些与 CJS 不同：
 
 - ESM 中无法使用 `__dirname/__filename` 这类 CJS 中的内置全局变量。[alternative-for-dirname-in-node-js-when-using-es6-modules](https://stackoverflow.com/questions/46745014/alternative-for-dirname-in-node-js-when-using-es6-modules)
 
-  解决这个问题的一个简单方法是使用 shim 填充这些值，参考 [import.meta](https://nodejs.org/api/esm.html#importmetadirname)：
+  解决这个问题的一个简单方法是使用 shim 填充这些值，比如 [cross-dirname](https://www.npmjs.com/package/cross-dirname)，参考 [import.meta](https://nodejs.org/api/esm.html#importmetadirname)：
      ```ts
           // Node 20.11.0+, Deno 1.40.0+
         const __dirname = import.meta.dirname;
@@ -35,11 +45,11 @@ ESM 会有一些与 CJS 不同：
         import { fileURLToPath } from "node:url";
         const __filename = fileURLToPath(import.meta.url);
     ```
-
+  
     * `import.meta.url` 是 ES2020 (ES11) 的行为，当然 ESNext 也支持，在其他要编译为 ESM 模块的地方使用时你或许需要牢记这一点。
-    * 严禁使用 n`ew URL(import.meta.url).pathname` 这种写法，会引发不同平台表现不一致和错误，详见 [`url.fileURLToPath(url)`](http://nodejs.cn/api/url/url_fileurltopath_url.html)（很多地方都告诉你这么写其实是不对的）
+    * 严禁使用 `new URL(import.meta.url).pathname` 这种写法，会引发不同平台表现不一致和错误，详见 [`url.fileURLToPath(url)`](http://nodejs.cn/api/url/url_fileurltopath_url.html)（很多地方都告诉你这么写其实是不对的）
 
-   对包的寻址，CJS 中可以使用 [enhanced-resolve](https://github.com/webpack/enhanced-resolve)，ESM 模块可以使用 [import-meta-resolve](https://github.com/wooorm/import-meta-resolve)，它是 import.meta.resolve 的 polyfill。
+   对包的寻址，CJS 中可以使用 [enhanced-resolve](https://github.com/webpack/enhanced-resolve)，ESM 模块可以使用 [import-meta-resolve](https://github.com/wooorm/import-meta-resolve)，它是 `import.meta.resolve` 的 polyfill。
    目前开发 node.js  ESM 库，所缺少的 ESM 模块工具，可以参考 [unjs/mlly](https://github.com/unjs/mlly)。
 
 - ESM 是可以向下兼容 CJS 的。但是要 CJS 向上兼容，导入 ESM 模块，就会很麻烦，必须要使用 `dynamic import()`。
